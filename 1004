@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner (System.in);
+        int A;
+        int B;
+        int PROD;
+        
+        A = entrada.nextInt();
+        B = entrada.nextInt();
+        PROD = A*B;
+        System.out.println("PROD = " +PROD);
+    }
+    
+}
