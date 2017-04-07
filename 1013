@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+ int A, B, C, MaiorAB, MaiorC;
+ 
+ A = entrada.nextInt();
+ B = entrada.nextInt();
+ C = entrada.nextInt();
+ 
+ MaiorAB = (A+B+(Math.abs(A-B)))/2;
+ MaiorC = (MaiorAB + C + (Math.abs(MaiorAB-C)))/2;
+ 
+ System.out.println(MaiorC+" eh o maior"); 
+ }
+   }
