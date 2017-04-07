@@ -1,0 +1,20 @@
+import java.io.PrintStream;
+import java.util.Scanner;
+import java.util.Locale;
+public class Main {
+    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner entrada = new Scanner(System.in);
+double x1,y1, px;
+double x2, y2 , py;
+x1 = entrada.nextDouble();
+y1 = entrada.nextDouble();
+x2 = entrada.nextDouble();
+y2 = entrada.nextDouble();
+px = Math.pow((x2-x1),2);
+py = Math.pow((y2-y1),2);
+double pt = px+py;
+double distancia = Math.sqrt(pt);
+        PrintStream printf = System.out.printf("%.4f\n",distancia);
+}
+}
