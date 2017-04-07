@@ -1,0 +1,22 @@
+import java.io.IOException;
+import java.util.Scanner;
+import java.util.Locale;
+public class Main {
+ 
+    public static void main(String[] args) throws IOException {
+        Scanner entrada = new Scanner (System.in);
+        Locale.setDefault(Locale.US);
+        
+        double A, B, C, MEDIA;
+        
+         A = entrada.nextDouble();
+         B = entrada.nextDouble();
+         C = entrada.nextDouble();
+         MEDIA = ((A*2)+(B*3)+(C*5))/10;
+        
+        System.out.printf("MEDIA = %.1f\n",MEDIA);
+        
+ 
+    }
+ 
+}
