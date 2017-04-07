@@ -1,0 +1,20 @@
+import java.util.Scanner;
+import java.util.Locale;
+public class Main {
+    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner entrada = new Scanner(System.in);
+        int tempo, vm;
+        double distancia, qt;
+        
+        tempo = entrada.nextInt();
+        vm = entrada.nextInt();
+        
+        distancia = tempo*vm;
+        qt = distancia/12;
+        
+        System.out.printf("%.3f\n",qt);
+        
+    }
+    
+}
