@@ -1,0 +1,23 @@
+import java.io.PrintStream;
+import java.util.Scanner;
+import java.util.Locale;
+/**
+ *
+ * @author Rayanne
+ */
+public class Main {
+    public static void main(String[] args) {
+        Locale.setDefault(Locale.US);
+        Scanner entrada = new Scanner(System.in);
+int X;
+double Y,C;
+ X = entrada.nextInt();
+ Y = entrada.nextDouble();
+ C = X/Y;
+ 
+        PrintStream printf = System.out.printf("%.3f km/l\n",C);
+ 
+ 
+
+}
+}
